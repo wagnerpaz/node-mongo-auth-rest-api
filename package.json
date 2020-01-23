@@ -1,0 +1,26 @@
+{
+  "name": "node-mongo-auth-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name node-mongo-auth-rest-api"
+  },
+  "keywords": [],
+  "author": "Meta Priori",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.0",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.5.1"
+  }
+}
