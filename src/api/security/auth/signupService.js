@@ -1,6 +1,6 @@
 /**
  * @module signupService Express handler function responsible
- * for authenticating users in the API.
+ * for sign up users in the API.
  */
 
 const crypto = require('crypto')

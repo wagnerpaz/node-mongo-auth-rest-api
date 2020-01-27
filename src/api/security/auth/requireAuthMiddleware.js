@@ -1,3 +1,7 @@
+/**
+ * @module requireAuth Express middleware responsible for authorizing requests.
+ */
+
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose')
 

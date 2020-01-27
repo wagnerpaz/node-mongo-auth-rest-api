@@ -1,5 +1,5 @@
 /**
- * @module authCfg Configuration of auth tokens and password encryption.
+ * @module authConfig Configuration of auth tokens and password encryption.
  */
 
 module.exports = {

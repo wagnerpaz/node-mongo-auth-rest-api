@@ -1,3 +1,7 @@
+/**
+ * @module authRoutes Apply the authorization routes to a server instance.
+ */
+
 const express = require('express')
 const requireAuth = require('../api/security/auth/requireAuthMiddleware');
 

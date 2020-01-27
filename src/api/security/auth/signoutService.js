@@ -1,5 +1,6 @@
 /**
- * @module signoutService Express handler function responsible for sign out users in the API.
+ * @module signoutService Express handler function responsible
+ * for sign out users in the API.
  */
 
 const User = require('./User')

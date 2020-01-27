@@ -1,3 +1,8 @@
+/**
+ * Starts the server.
+ * @module server The Express server instance.
+ */
+
 const PORT = 3003
 
 const mongoose = require('mongoose');

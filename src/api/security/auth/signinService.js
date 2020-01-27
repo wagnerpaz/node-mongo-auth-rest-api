@@ -1,6 +1,6 @@
 /**
  * @module signinService Express handler function responsible
- * for authenticating users in the API.
+ * for sign in users in the API.
  */
 
 const jwt = require('jsonwebtoken')
